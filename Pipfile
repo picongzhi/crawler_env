@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.5"
+
+[dev-packages]
+
+[packages]
+ipython = "*"
+requests = "*"
+selenium = "*"
+aiohttp = "*"
+cchardet = "*"
+aiodns = "*"
+lxml = "*"
+"beautifulsoup4" = "*"
+pyquery = "*"
+tesserocr = "*"
+pillow = "*"
+pymysql = "*"
+pymongo = "*"
+redis = "*"
+flask = "*"
+mitmproxy = "*"
+pycurl = "*"
+pyspider = "*"
+scrapy = "*"
+scrapy-splash = "*"
+scrapy-redis = "*"
+scrapyd = "*"
+scrapyd-client = "*"
+python-scrapyd-api = "*"
+scrapyrt = "*"
+gerapy = "*"
+
+[pipenv]
+allow_prereleases = true
